@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#root{
+    width: 100%;
+    
+    
+}
+#root .list{
+    display: flex;
+    justify-content: center;
+}
+    
+    .board{
+    background: #34495e;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+}
+.board .student{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 10px 0;
+    
+    box-shadow: 1px 1px 0 1px #fff;
+}
+.board .student .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.formAdd{
+    width: 100%;
+}
+.formAdd input{
+    width: 100%;
+    padding:15px 20px;
+    margin-bottom: 10px;
+}
